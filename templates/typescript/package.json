@@ -48,6 +48,7 @@
     "exec": "bun run build && bun run test",
     "watch": [
       "src",
+      "scripts",
       "test"
     ],
     "ext": "ts"

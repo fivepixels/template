@@ -29,10 +29,9 @@
 
     "paths": {
       "@src/*": ["./src/*"],
-      "@test/*": ["./test/*"],
-      "@type/*": ["./types/*"]
+      "@test/*": ["./test/*"]
     }
   },
-  "include": ["./src", "./test"],
+  "include": ["./src", "./test", "./scripts"],
   "exclude": ["./node_modules", "**/*.spec.ts"]
 }
